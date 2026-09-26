@@ -23,7 +23,6 @@ jobs:
           user: felixren7
           filename: metrics.svg
           template: classic
-          config_display: columns
           config_timezone: Asia/Singapore
           base: header, activity, community, repositories, metadata
           base_indepth: yes
