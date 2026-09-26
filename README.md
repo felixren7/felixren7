@@ -14,7 +14,7 @@ Building AI systems, distributed backend services, and real-time applications.
 
 <div align="center">
 
-<img src="./metrics.svg" alt="GitHub activity metrics" width="95%" />
+<img src="./metrics.svg" alt="GitHub activity metrics" width="57%" />
 
 ### 🏆 Achievements
 
@@ -22,7 +22,7 @@ Building AI systems, distributed backend services, and real-time applications.
 
 ### Languages
 
-<img src="./languages.svg" alt="Language usage metrics" width="95%" />
+<img src="./languages.svg" alt="Language usage metrics" width="57%" />
 
 ### 🐍 Contribution snake
 

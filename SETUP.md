@@ -43,6 +43,7 @@ The three featured projects are written as descriptions only. When the correct p
 
 ## Appearance and maintenance
 
+- Card widths in the README are deliberate. `metrics.svg` and `languages.svg` render natively at 480px, so at `width="95%"` they would be upscaled about 1.7x and their type would look far larger than the 900px-wide achievement and weather cards. They are shown at `57%` (~1:1) so all four cards sit at a comparable type scale. The classic template ignores `config_display` (`large` and `columns` were both tested and still produced a 480px card), so display width is the only lever.
 - Visitor badge: external counter at `komarev.com`; it measures image requests, not unique people.
 - Achievements: generated locally by `scripts/achievements_card.py` from the public REST API, not by a hosted trophy service and not by the Metrics `plugin_achievements` plugin. That plugin requests `user.projects` in its GraphQL query; GitHub removed the field with the Projects (classic) sunset, so the plugin renders "Unexpected error" and upstream has been unmaintained since 2023-12. The card counts stars and forks over owned non-fork repositories, and reports the repository count as GitHub's own `public_repos` figure.
 - Snake: generated with `Platane/snk` and published on a dedicated `output` branch, with light and dark variants.
