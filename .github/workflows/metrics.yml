@@ -69,4 +69,3 @@ jobs:
           # address is given as a substring to avoid the "+" in it being read
           # as a quantifier.
           commits_authoring: felixren7, 3102126552@qq.com, inwardflow@users.noreply.github.com
-          debug: yes
