@@ -48,7 +48,7 @@ The three featured projects are written as descriptions only. When the correct p
 - Snake: generated with `Platane/snk` and published on a dedicated `output` branch, with light and dark variants.
 - Weather: Open-Meteo current conditions for Singapore, refreshed daily; the card keeps the previous reading on temporary API failures.
 - Thought: one of ten original short engineering thoughts picked on each successful update.
-- Language analysis: authored commit patches can take time. `freeCodeCamp` and `CISE_Repos` are skipped because they are large or likely to distort personal language figures. Remove entries from `plugin_languages_skipped` if you want them counted.
+- Language analysis: authored commit patches can take time. `freeCodeCamp` and `CISE_Repos` are skipped because they are large or likely to distort personal language figures. Remove entries from `plugin_languages_skipped` if you want them counted. Only the `most-used` section is requested; the `recently-used` section is omitted because its `RecentAnalyzer` reads `payload.commits` from PushEvents, a field the Events API no longer returns, which makes it throw.
 - The Metrics action is pinned to `v3.34` so scheduled runs stay reproducible; bump it deliberately and skim the release notes first. `Platane/snk` still tracks the moving `v3` tag — pin it to `v3.5.0` if you want the same guarantee there.
 
 Sources: https://github.com/lowlighter/metrics · https://github.com/Platane/snk · https://open-meteo.com/en/docs · https://github.com/antonkomarev/github-profile-views-counter

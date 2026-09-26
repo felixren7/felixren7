@@ -52,13 +52,13 @@ jobs:
           repositories_affiliations: owner, collaborator
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_sections: most-used, recently-used
+          # "recently-used" is not requested: its RecentAnalyzer reads
+          # payload.commits from PushEvents, which the Events API no longer
+          # returns, so it throws on `payload.commits` being undefined.
+          plugin_languages_sections: most-used
           plugin_languages_details: percentage, lines
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
           plugin_languages_categories: programming, markup
-          plugin_languages_recent_categories: programming, markup
-          plugin_languages_recent_days: 30
-          plugin_languages_recent_load: 200
           plugin_languages_skipped: felixren7/freeCodeCamp, felixren7/CISE_Repos
           commits_authoring: felixren7
