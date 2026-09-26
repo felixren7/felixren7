@@ -4,8 +4,6 @@
 
 ### Software Engineer · AI Engineering · Distributed Systems
 
-Building AI systems, distributed backend services, and real-time applications.
-
 <img src="https://komarev.com/ghpvc/?username=felixren7&label=Profile%20views&color=7c3aed&style=for-the-badge" alt="Profile views" />
 
 </div>
