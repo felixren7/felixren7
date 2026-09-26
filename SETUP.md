@@ -1,6 +1,6 @@
 # Install this GitHub profile
 
-This package is prepared for the GitHub account **felixren7**. Keep the directory structure exactly as shown. It has not been published to GitHub yet.
+This package is prepared for the GitHub account **felixren7**. Keep the directory structure exactly as shown. It is published at https://github.com/felixren7/felixren7; the steps below document how it was set up and how to rebuild it elsewhere.
 
 ## 1. Create the profile repository
 
@@ -28,11 +28,12 @@ In Settings → Actions → General → Workflow permissions, allow GitHub Actio
 
 ## 4. Run and inspect
 
-Run all three workflows once from the repository Actions tab using **Run workflow**:
+Run all four workflows once from the repository Actions tab using **Run workflow**:
 
-1. **Profile metrics** generates `metrics.svg`, `achievements.svg`, `languages.svg` on `main`.
-2. **Contribution snake** creates the `output` branch and two animated SVGs.
-3. **Singapore weather and daily thought** replaces the placeholder card in `assets/daily-card.svg`.
+1. **Profile metrics** generates `metrics.svg` and `languages.svg` on `main`.
+2. **Profile achievements card** generates `assets/achievements-card.svg` from the public REST API.
+3. **Contribution snake** creates the `output` branch and two animated SVGs.
+4. **Singapore weather and daily thought** replaces the placeholder card in `assets/daily-card.svg`.
 
 Reload https://github.com/felixren7 after they succeed. Scheduled runs are daily. GitHub can delay scheduled jobs at busy times. A missing image immediately after the initial push is expected until its workflow has run successfully.
 
@@ -43,7 +44,7 @@ The three featured projects are written as descriptions only. When the correct p
 ## Appearance and maintenance
 
 - Visitor badge: external counter at `komarev.com`; it measures image requests, not unique people.
-- Achievements: Metrics `plugin_achievements` instead of the hosted trophy image service, whose endpoint has had availability reports.
+- Achievements: generated locally by `scripts/achievements_card.py` from the public REST API, not by a hosted trophy service and not by the Metrics `plugin_achievements` plugin. That plugin requests `user.projects` in its GraphQL query; GitHub removed the field with the Projects (classic) sunset, so the plugin renders "Unexpected error" and upstream has been unmaintained since 2023-12. The card counts stars and forks over owned non-fork repositories, and reports the repository count as GitHub's own `public_repos` figure.
 - Snake: generated with `Platane/snk` and published on a dedicated `output` branch, with light and dark variants.
 - Weather: Open-Meteo current conditions for Singapore, refreshed daily; the card keeps the previous reading on temporary API failures.
 - Thought: one of ten original short engineering thoughts picked on each successful update.

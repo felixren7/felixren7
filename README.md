@@ -50,7 +50,7 @@ A Canvas waveform renderer using a ring buffer and `requestAnimationFrame` to ha
 
 ### 🏆 Achievements
 
-<img src="./achievements.svg" alt="GitHub achievements" width="95%" />
+<img src="./assets/achievements-card.svg" alt="GitHub achievements" width="95%" />
 
 ### Languages
 
