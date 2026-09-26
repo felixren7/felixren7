@@ -60,5 +60,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_threshold: 1%
           plugin_languages_categories: programming, markup
+          plugin_languages_ignored: q
           plugin_languages_skipped: felixren7/freeCodeCamp, felixren7/CISE_Repos
           commits_authoring: felixren7
+          debug: yes
