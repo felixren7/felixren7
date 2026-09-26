@@ -59,5 +59,9 @@ jobs:
           plugin_languages_threshold: 1%
           plugin_languages_categories: programming, markup
           plugin_languages_ignored: q
+          # Deliberate relabelling, not a measurement: TypeScript and TSX are
+          # reported under JavaScript. The plugin accumulates aliased values,
+          # so the two merge into one entry. Requested by the profile owner.
+          plugin_languages_aliases: typescript:JavaScript, tsx:JavaScript
           plugin_languages_skipped: felixren7/freeCodeCamp, felixren7/CISE_Repos
           commits_authoring: felixren7
