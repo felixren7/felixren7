@@ -64,4 +64,8 @@ jobs:
           # so the two merge into one entry. Requested by the profile owner.
           plugin_languages_aliases: typescript:JavaScript, tsx:JavaScript
           plugin_languages_skipped: felixren7/freeCodeCamp, felixren7/CISE_Repos
-          commits_authoring: felixren7
+          # Authoring identities in the private rightnow-core repositories.
+          # Matched with `git log --author`, which is a regex, so the noreply
+          # address is given as a substring to avoid the "+" in it being read
+          # as a quantifier.
+          commits_authoring: felixren7, 3102126552@qq.com, inwardflow@users.noreply.github.com
