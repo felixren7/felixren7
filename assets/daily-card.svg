@@ -2,8 +2,8 @@
   <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient></defs>
   <rect width="900" height="180" rx="20" fill="url(#bg)"/>
   <text x="32" y="36" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SINGAPORE WEATHER</text>
-  <text x="32" y="76" fill="#ffffff" font-family="Arial, sans-serif" font-size="25">29.6°C · Light drizzle · Humidity 74%</text>
+  <text x="32" y="76" fill="#ffffff" font-family="Arial, sans-serif" font-size="25">26.8°C · Light drizzle · Humidity 91%</text>
   <text x="32" y="111" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TODAY'S THOUGHT</text>
-  <text x="32" y="142" fill="#f8fafc" font-family="Arial, sans-serif" font-size="19">Keep the feedback loop short and the assumptions visible.</text>
-  <text x="32" y="165" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Updated 26 Sep 2026, 12:02 SGT · Weather observation 26 Sep 2026, 12:00 SGT · Open-Meteo</text>
+  <text x="32" y="142" fill="#f8fafc" font-family="Arial, sans-serif" font-size="19">The simplest useful test is the one you will actually run.</text>
+  <text x="32" y="165" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Updated 27 Sep 2026, 15:57 SGT · Weather observation 27 Sep 2026, 15:45 SGT · Open-Meteo</text>
 </svg>
