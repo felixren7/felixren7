@@ -2,8 +2,8 @@
   <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient></defs>
   <rect width="900" height="180" rx="20" fill="url(#bg)"/>
   <text x="32" y="36" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SINGAPORE WEATHER</text>
-  <text x="32" y="76" fill="#ffffff" font-family="Arial, sans-serif" font-size="25">29.1°C · Light drizzle · Humidity 77%</text>
+  <text x="32" y="76" fill="#ffffff" font-family="Arial, sans-serif" font-size="25">29.5°C · Light showers · Humidity 76%</text>
   <text x="32" y="111" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TODAY'S THOUGHT</text>
-  <text x="32" y="142" fill="#f8fafc" font-family="Arial, sans-serif" font-size="19">Trace the data before guessing at the bug.</text>
-  <text x="32" y="165" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Updated 02 Oct 2026, 16:19 SGT · Weather observation 02 Oct 2026, 16:15 SGT · Open-Meteo</text>
+  <text x="32" y="142" fill="#f8fafc" font-family="Arial, sans-serif" font-size="19">A good interface makes the hard part easier to reason about.</text>
+  <text x="32" y="165" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Updated 03 Oct 2026, 15:55 SGT · Weather observation 03 Oct 2026, 15:45 SGT · Open-Meteo</text>
 </svg>
