@@ -2,8 +2,8 @@
   <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#312e81"/></linearGradient></defs>
   <rect width="900" height="180" rx="20" fill="url(#bg)"/>
   <text x="32" y="36" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SINGAPORE WEATHER</text>
-  <text x="32" y="76" fill="#ffffff" font-family="Arial, sans-serif" font-size="25">31.4°C · Heavy drizzle · Humidity 62%</text>
+  <text x="32" y="76" fill="#ffffff" font-family="Arial, sans-serif" font-size="25">29.6°C · Overcast · Humidity 73%</text>
   <text x="32" y="111" fill="#a5b4fc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">TODAY'S THOUGHT</text>
   <text x="32" y="142" fill="#f8fafc" font-family="Arial, sans-serif" font-size="19">Build the smallest thing that answers the real question.</text>
-  <text x="32" y="165" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Updated 19 Oct 2026, 15:37 SGT · Weather observation 19 Oct 2026, 15:30 SGT · Open-Meteo</text>
+  <text x="32" y="165" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="12">Updated 20 Oct 2026, 15:23 SGT · Weather observation 20 Oct 2026, 15:15 SGT · Open-Meteo</text>
 </svg>
